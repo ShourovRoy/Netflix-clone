@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=B612&family=Poppins&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'B612', sans-serif;
+}
+
+button{
+    outline: none;
+    border: none;
+    font-family: 'B612', sans-serif;
+}
+
+.nav__header{
+    background: #000000;
+}
+
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav__logo{
+    width: 150px;
+    height: auto;
+    margin-left: -13px;
+    
+}
+
+.nav__logo__two{
+    width: auto;  
+    height: 56px;
+    /* margin-top: -15px;   */
+}
+
+@media screen and (max-width: 600px){
+    .nav__logo{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 600px){
+    .nav__logo__two{
+        display: none;
+    }
+}
+
+
+
+
+.nav__text{
+    color: white;
+    margin-right: 7px;
+    font-family: 'B612', sans-serif;
+}
+
+@media screen and (max-width: 1023px){
+    .nav__text{
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.nav__btn__one{
+    padding: 8px 17px;
+    background: #c4050e;
+    color: white;
+    border: 1px solid #c4050e;
+    border-radius: 3px;
+
+}
+.nav__btn__one:hover{
+    padding: 8px 17px;
+    background: #F40612;
+    color: white;
+    border: 1px solid #F40612;
+
+}
+
+
+.nav__btn__two{
+    padding: 8px 17px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+
+}
+
+.nav__btn__two:hover{
+    padding: 8px 17px;
+    background: #ffffff31;
+    color: white;
+    border: 1px solid white;
+
+}
+
+
+#hero{
+    background: linear-gradient(37deg,rgb(0, 0, 0) 30%,rgba(12, 26, 51, 0) 81%),url("https://occ-0-64-58.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeu5Oz4CGncoVEvCDhLelkyQc7H0KsaLyauqCprkOTTePn46kiFYRe1AUg5UkCp9ka7RTgyc8mKrSy7w9VFeQDokfmzy.jpg?r=077");
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+}
+
+.container{
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    /* overflow: hidden; */
+}
+
+.hero__banner{
+    width: 46%;
+    height: auto;
+}
+
+.hero__dark{
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 50px 0 20px 0;
+}
+
+.camps, .info__movie{
+    color: #a3a3a3;
+}
+
+.adult__plus{
+    border: 0.1px solid #a3a3a3;
+    padding: 2px 7px;
+
+}
+
+.camps__padding_x{
+    margin-right: 6px;
+}
+.padding__l{
+    padding-left: 10px;
+    margin-left: 6px;
+}
+
+.hero__phr{
+    color: white;
+    margin-top: 30px;
+    width: 46%;
+    line-height: 1.7rem;
+    font-size: 16px;
+}
+
+.hero__phr__two{
+    color: white;
+    font-size: 16px;
+}
